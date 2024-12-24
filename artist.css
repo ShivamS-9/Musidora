@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+input {
+  border-radius: 20px;
+}
+
+#highlig{
+  background-color: rgba(0, 255, 255, 0.436);
+  border-radius: 20px;
+
+}
+
+.navigation {
+  background-color: rgb(22, 23, 23);
+  overflow: hidden;
+  padding: 10px;
+  display: block;
+  font-size: 36px;
+  word-spacing: 36px;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.logo {
+  height: 50px;
+  float: left;
+  margin-left: 20px;
+  border-radius: 30px;
+}
+
+.navigation a {
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.navigation a:hover {
+  background-color: bisque;
+  border-radius: 27px;
+  color: rgb(40, 45, 50);
+}
+
+.navigation input[type="text"] {
+  /* float: right; */
+  padding: 6px;
+  border: 1px solid #ccc;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+
+
+.head1 {
+  margin-top: 100px;
+  margin-bottom: 30px;
+  font-size: 72px;
+  color: whitesmoke;
+  text-align: center;
+}
+
+.head2 {
+  font-size: 54px;
+  margin-left: 150px;
+  color: whitesmoke;
+}
+
+body {
+  background-image: linear-gradient(black, rgba(79, 5, 5, 0.864));
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #030303;
+  /* margin: 50px; */
+}
+.container {
+  display: grid;
+  grid-template-columns: 0.7fr 0.7fr 0.7fr;
+  grid-template-rows: 0.7fr 0.7fr;
+  grid-gap: 00px;
+  column-gap: 05px;
+  row-gap: 75px;
+  margin-top: 0px;
+  margin-left: 200px;
+  margin: 100px;
+  margin-bottom: 20px;
+  /* background-color: rgba(0, 0, 0, 0); */
+  /*  color: #444;*/
+  /*justify-content: center;
+  align-content: center;*/
+}
+.image {
+  width: 300px;
+  height: 300px;
+  border-radius: 30px;
+  margin-left: 100px;
+  margin: 20px;
+  overflow: hidden;
+}
+.artistpic {
+  background-color: rgba(0, 0, 0, 0);
+  box-align: center;
+  align-items: center;
+  color: whitesmoke;
+  font-family: sans-serif;
+  border-radius: 5px;
+  padding: 0px;
+  margin-left: 40px;
+  font-size: 150%;
+}
+.artistpic {
+  text-align: center;
+  font-size: 34px;
+}
+
+.artistpic:hover {
+  background-color: rgba(132, 129, 99, 0.333);
+  border-radius: 30px;
+  padding-bottom: 20px;
+  margin: 10px;
+}
+
+a{
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.artistpic a:hover{
+  color: rgba(0, 255, 255, 0.869);
+  
+}
+
+a:visited{
+  color: whitesmoke;
+}
+
+.foot {
+  bottom: 0;
+  width: 100%;
+  padding: 20px 30px;
+  font-size: 26px;
+  background-color: rgb(9, 9, 9);
+  color: bisque;
+}
+
+.foot a {
+  color: bisque;
+}
+
+.foot a:hover {
+  color: rgb(255, 49, 83);
+}
+
+.copy {
+  float: left;
+  margin-left: 5%;
+}
+
+.contact {
+  margin-left: 27%;
+}
+
+.foot a {
+  float: right;
+  margin-right: 10%;
+  text-decoration: none;
+}
+
+a .foot:visited {
+  text-decoration: none;
+}
